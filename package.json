@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "lerna-pratice",
   "private": true,
   "workspaces": [
     "packages/*"

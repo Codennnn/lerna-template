@@ -1,1 +1,1 @@
-# lerna-template
+# lerna-pratice
