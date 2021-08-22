@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "release": "lerna publish"
+  },
   "devDependencies": {
     "dumi": "^1.1.25",
     "father-build": "^1.19.8",

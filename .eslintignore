@@ -1,5 +1,7 @@
 node_modules
 public
+lib
+es
 dist*
 yarn*
 .umi*
@@ -7,4 +9,5 @@ yarn*
 !.eslintrc.js
 !.prettierrc.js
 !.stylelintrc.js
+!.fatherrc.ts
 !.umirc.ts

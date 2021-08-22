@@ -1,9 +1,9 @@
 {
   "packages": ["packages/*"],
   "useWorkspaces": true,
-  "version": "independent",
+  "version": "0.1.0",
   "npmClient": "yarn",
-  "commands": {
+  "command": {
     "publish": {
       "ignoreChanges": [
         "*.md",
