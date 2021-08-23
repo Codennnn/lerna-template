@@ -5,10 +5,11 @@
   "scripts": {
     "start": "dumi dev",
     "build": "father-build",
+    "umi-demo": "APP_ROOT=umi-demo umi dev",
     "lint": "npm run lint:es && npm run lint:style && npm run lint:ts",
     "lint:fix": "npm run lint:es --fix && npm run lint:style --fix",
     "lint:ts": "tsc --noEmit --skipLibCheck",
-    "lint:es": "eslint --ignore-path \"./.eslintignore\" \"**/*.{js,jsx,ts,tsx}\"",
+    "lint:es": "eslint \"**/*.{js,jsx,ts,tsx}\"",
     "lint:style": "stylelint \"./src/**/*.{css,less,scss}\""
   },
   "gitHooks": {

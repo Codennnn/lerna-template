@@ -1,4 +1,4 @@
-import { defineConfig } from 'dumi'
+import { defineConfig } from 'umi'
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -6,4 +6,6 @@ export default defineConfig({
   },
 
   fastRefresh: {},
+
+  mfsu: {},
 })
