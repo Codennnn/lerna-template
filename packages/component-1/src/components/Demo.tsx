@@ -1,3 +1,5 @@
+import Foo from './Foo'
+
 export default function Demo() {
-  return <div></div>
+  return <Foo />
 }
