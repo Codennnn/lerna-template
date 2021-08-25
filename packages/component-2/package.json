@@ -49,5 +49,8 @@
     "*.{md,json}": [
       "prettier --write"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
