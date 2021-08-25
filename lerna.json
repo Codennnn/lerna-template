@@ -1,9 +1,7 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "useWorkspaces": true,
-  "version": null,
+  "version": "indenpendent",
   "npmClient": "yarn",
   "command": {
     "publish": {
