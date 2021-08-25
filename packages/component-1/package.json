@@ -1,5 +1,5 @@
 {
-  "name": "@leoku/component-1",
+  "name": "component-1",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "main": "dist/index.js",
@@ -50,5 +50,5 @@
       "prettier --write"
     ]
   },
-  "gitHead": "abb26d1058d980be0207911253fe6c9628fb5760"
+  "gitHead": "616a359ec2d4ab91d580f62009ff2508ec09be18"
 }
