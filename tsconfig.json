@@ -9,6 +9,7 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "stripInternal": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true
   }

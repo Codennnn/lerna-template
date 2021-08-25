@@ -14,22 +14,10 @@
     "lint": "npm run lint:es && npm run lint:style && npm run lint:ts",
     "lint:fix": "npm run lint:es --fix && npm run lint:style --fix",
     "lint:ts": "tsc --noEmit --skipLibCheck",
-    "lint:es": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "lint:es": "eslint \"**/*.{mjs,js,jsx,ts,tsx}\"",
     "lint:style": "stylelint \"./src/**/*.{css,less,scss}\""
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{css,less,scss}": [
-      "stylelint --fix"
-    ],
-    "*.{md,json}": [
-      "prettier --write"
-    ]
-  },
   "dependencies": {
-    "@ant-design/pro-layout": "^6.5.0",
     "react": "17.x",
     "react-dom": "17.x",
     "umi": "^3.5.17"
@@ -38,10 +26,8 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@umijs/test": "^3.5.17",
-    "lint-staged": "^10.0.7",
     "react": "17.x",
-    "react-dom": "17.x",
-    "yorkie": "^2.0.0"
+    "react-dom": "17.x"
   },
   "peerDependencies": {
     "react": "17.x",
@@ -49,8 +35,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   }
 }
