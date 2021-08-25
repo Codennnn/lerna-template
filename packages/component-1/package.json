@@ -17,12 +17,16 @@
     "lint:es": "eslint \"**/*.{js,jsx,ts,tsx}\"",
     "lint:style": "stylelint \"./src/**/*.{css,less,scss}\""
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "peerDependencies": {
-    "react": "17.x",
-    "react-dom": "17.x"
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{css,less,scss}": [
+      "stylelint --fix"
+    ],
+    "*.{md,json}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
@@ -39,18 +43,14 @@
     "react-dom": "17.x",
     "yorkie": "^2.0.0"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{css,less,scss}": [
-      "stylelint --fix"
-    ],
-    "*.{md,json}": [
-      "prettier --write"
-    ]
+  "peerDependencies": {
+    "react": "17.x",
+    "react-dom": "17.x"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   }
 }
