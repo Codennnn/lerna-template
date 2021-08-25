@@ -1,6 +1,6 @@
 {
   "name": "@leoku_/component-2",
-  "version": "2.2.2",
+  "version": "2.1.2",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
