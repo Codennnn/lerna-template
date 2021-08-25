@@ -1,3 +1,3 @@
 ```tsx | pure
-const a = 1
+const a = 12
 ```
