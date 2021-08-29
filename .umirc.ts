@@ -15,5 +15,5 @@ export default defineConfig({
 
   // esbuild: {},
 
-  // mfsu: {},
+  mfsu: {},
 })

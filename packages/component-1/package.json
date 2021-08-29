@@ -1,8 +1,9 @@
 {
   "name": "@leoku_/component-1",
-  "version": "2.1.3",
+  "version": "0.1.0",
   "license": "UNLICENSED",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -10,7 +11,7 @@
   "scripts": {
     "start": "dumi dev",
     "build": "father-build",
-    "umi-demo": "APP_ROOT=umi-demo umi dev",
+    "umi-demo": "cross-env APP_ROOT=umi-demo umi dev",
     "lint": "npm run lint:es && npm run lint:style && npm run lint:ts",
     "lint:fix": "npm run lint:es --fix && npm run lint:style --fix",
     "lint:ts": "tsc --noEmit --skipLibCheck",
@@ -18,16 +19,12 @@
     "lint:style": "stylelint \"./src/**/*.{css,less,scss}\""
   },
   "dependencies": {
-    "react": "17.x",
-    "react-dom": "17.x",
     "umi": "^3.5.17"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@umijs/test": "^3.5.17",
-    "react": "17.x",
-    "react-dom": "17.x"
+    "@umijs/test": "^3.5.17"
   },
   "peerDependencies": {
     "react": "17.x",

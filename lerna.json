@@ -4,6 +4,10 @@
   "version": "independent",
   "npmClient": "yarn",
   "command": {
+    "version": {
+      "allowBranch": "main",
+      "includeMergedTags": true
+    },
     "publish": {
       "ignoreChanges": [
         "*.md",
@@ -16,7 +20,7 @@
         "**/es/**",
         "**/test/**"
       ],
-      "message": "chore(release): publish %v"
+      "message": "chore(release): publish"
     }
   }
 }
