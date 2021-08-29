@@ -2886,19 +2886,19 @@
   resolved "https://registry.nlark.com/@types/q/download/@types/q-1.5.5.tgz?cache=0&sync_timestamp=1625678508325&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fq%2Fdownload%2F%40types%2Fq-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
   integrity sha1-daKo59irSyMEFFBdkjNdHctTpt8=
 
+"@types/react-dom@17.x", "@types/react-dom@^17.0.0":
+  version "17.0.9"
+  resolved "https://registry.nlark.com/@types/react-dom/download/@types/react-dom-17.0.9.tgz#441a981da9d7be117042e1a6fd3dac4b30f55add"
+  integrity sha1-RBqYHanXvhFwQuGm/T2sSzD1Wt0=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@^16.9.8":
   version "16.9.14"
   resolved "https://registry.nlark.com/@types/react-dom/download/@types/react-dom-16.9.14.tgz#674b8f116645fe5266b40b525777fc6bb8eb3bcd"
   integrity sha1-Z0uPEWZF/lJmtAtSV3f8a7jrO80=
   dependencies:
     "@types/react" "^16"
-
-"@types/react-dom@^17.0.0":
-  version "17.0.9"
-  resolved "https://registry.nlark.com/@types/react-dom/download/@types/react-dom-17.0.9.tgz#441a981da9d7be117042e1a6fd3dac4b30f55add"
-  integrity sha1-RBqYHanXvhFwQuGm/T2sSzD1Wt0=
-  dependencies:
-    "@types/react" "*"
 
 "@types/react-router-config@5.0.2":
   version "5.0.2"
@@ -2943,7 +2943,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.0":
+"@types/react@*", "@types/react@17.x", "@types/react@^17.0.0":
   version "17.0.19"
   resolved "https://registry.nlark.com/@types/react/download/@types/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
   integrity sha1-jyqF6BgKQ7V5ZrI30mopSB2syZE=
