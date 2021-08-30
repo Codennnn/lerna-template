@@ -22,8 +22,14 @@
       "prettier --write"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "@rollup/plugin-strip": "^2.1.0",
+    "cz-conventional-changelog": "3.3.0",
     "dumi": "^1.1.25",
     "father-build": "^1.19.8",
     "husky": "^7.0.2",
