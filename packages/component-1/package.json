@@ -11,6 +11,7 @@
   "scripts": {
     "start": "dumi dev",
     "build": "father-build",
+    "test": "jest",
     "umi-demo": "cross-env APP_ROOT=umi-demo umi dev",
     "lint": "npm run lint:es && npm run lint:style && npm run lint:ts",
     "lint:fix": "npm run lint:es --fix && npm run lint:style --fix",
@@ -24,7 +25,9 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@umijs/test": "^3.5.17"
+    "@umijs/test": "^3.5.17",
+    "cz-conventional-changelog": "3.3.0",
+    "jest": "^27.1.0"
   },
   "peerDependencies": {
     "react": "17.x",
@@ -32,5 +35,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

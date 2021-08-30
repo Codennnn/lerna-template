@@ -8,9 +8,8 @@
     "start": "dumi dev",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "release": "lerna publish",
-    "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "release": "lerna run build --since --include-dependencies && lerna publish",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{mjs,js,jsx,ts,tsx}": [

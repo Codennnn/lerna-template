@@ -1,1 +1,1 @@
-export { default } from './components/Demo'
+export { default } from './components/DemoButton'
