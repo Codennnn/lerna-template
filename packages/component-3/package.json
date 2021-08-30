@@ -7,6 +7,9 @@
   "files": [
     "dist"
   ],
+  "scripts": {
+    "build": "father-build"
+  },
   "dependencies": {
     "@leoku_/component-1": "^3.0.0"
   },
@@ -21,6 +24,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "b51b3d67cf77d8df83867bf6f467a95ad23db541"
+  }
 }

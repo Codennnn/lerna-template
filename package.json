@@ -6,9 +6,10 @@
   ],
   "scripts": {
     "start": "dumi dev",
+    "build:changed": "lerna run build --since main --include-dependencies",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "release": "lerna run build --include-dependencies && lerna publish",
+    "release": "yarn build:changed && lerna publish",
     "prepare": "husky install"
   },
   "lint-staged": {
