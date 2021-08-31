@@ -1,2 +1,2 @@
 export const A = 'a'
-export const Bs = 'a'
+export const B = 'a'

@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "start": "dumi dev",
-    "build:changed": "lerna run build --since main --include-dependencies",
+    "build:changed": "lerna run build --since dev --include-dependencies",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "release": "yarn build:changed && lerna publish",
