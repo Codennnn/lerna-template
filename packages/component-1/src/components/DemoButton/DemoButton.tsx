@@ -1,7 +1,7 @@
 export default function Demo() {
   return (
     <div>
-      <button>button</button>
+      <button>demo button</button>
     </div>
   )
 }
