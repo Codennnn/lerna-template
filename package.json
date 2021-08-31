@@ -9,7 +9,7 @@
     "build:changed": "lerna run build --since main --include-dependencies",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "release": "yarn build:changed && git switch main && lerna publish",
+    "release": "lerna publish",
     "prepare": "husky install"
   },
   "lint-staged": {
