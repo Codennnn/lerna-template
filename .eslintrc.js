@@ -1,19 +1,5 @@
 module.exports = {
   root: true,
-  ignorePatterns: [
-    'node_modules',
-    'public',
-    'lib',
-    'es',
-    'dist*',
-    'yarn*',
-    '.umi*',
-    '.cache',
-    '!.eslintrc.js',
-    '!.prettierrc.js',
-    '!.stylelintrc.js',
-    '!.umirc.ts',
-  ],
   extends: [require.resolve('prefer-code-style/lib/eslint')],
   rules: {
     'import/no-unresolved': [
@@ -32,4 +18,18 @@ module.exports = {
       version: 'detect',
     },
   },
+  ignorePatterns: [
+    'public',
+    'lib',
+    'es',
+    'dist*',
+    'yarn*',
+    '.umi*',
+    '.cache',
+    '!.eslintrc.js',
+    '!.prettierrc.js',
+    '!.stylelintrc.js',
+    '!.lintstagedrc.js',
+    '!.umirc.ts',
+  ],
 }

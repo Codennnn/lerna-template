@@ -1,0 +1,17 @@
+on: push
+name: 同步 GitHub 仓库至 Gitee
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source codes
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/Codennnn
+          dst: gitee/chinesee
+          # 这里的 GITEE_PRIVATE_KEY 就是 SSH 私钥 `~/.ssh/id_rsa(没有 .pub)`
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: 'lerna-template'
+          force_update: true
