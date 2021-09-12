@@ -29,6 +29,7 @@ module.exports = {
     '!.eslintrc.js',
     '!.prettierrc.js',
     '!.stylelintrc.js',
+    '!.lintstagedrc.js',
     '!.umirc.ts',
   ],
 }

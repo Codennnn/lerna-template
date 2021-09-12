@@ -12,17 +12,6 @@
     "release": "lerna publish",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{mjs,js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{css,less,scss}": [
-      "stylelint --fix"
-    ],
-    "*.{md,json}": [
-      "prettier --write"
-    ]
-  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
